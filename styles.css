@@ -33,8 +33,44 @@ body {
     color: white;
     font-weight: bold;
     background-color: #176bad;
-    padding: 0.5rem;
-    border-radius: 0.5rem;
-    margin-right: 0.5rem;
+    padding: 0.3rem;
+    border-radius: 3px;
+    margin-right: 1rem;
     cursor: pointer;
+}
+
+#headerBottom button {
+    padding: 0;
+    border: none;
+    background: none;
+    margin-right: 1rem;
+    cursor: pointer;
+}
+
+#headerBottom button.active {
+    border-bottom: 2px solid #176bad;
+    font-weight: bold;
+}
+
+.email > div {
+    display: inline-block;
+}
+
+.email {
+    padding: 0.5rem;
+    padding-left: 1rem;
+    border-bottom: 1px solid darkgray
+}
+
+.email-name, .email-subject {
+    width: 35%;
+
+}
+
+.email-check, .email-date, .email-size {
+    width: 8%;
+}
+
+.email:nth-child(2) {
+    font-weight: bold;
 }
