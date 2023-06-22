@@ -4,35 +4,35 @@
 <head>
   <meta charset="UTF-8">
   <style>
-    /* 👉 Task 1- Apply the reset found on this page: https://www.joshwcomeau.com/css/custom-css-reset/ */
+    /* 👉 Task 1- Apply the reset found on this page: https://www.joshwcomeau.com/css/custom-css-reset/ DONE!*/
 
   </style>
   <style>
     /* 👉 Task 2- Target the body element.
     Apply a font family of Arial to the body element.
-    The font property is inherited by descendant (nested) elements. */
+    The font property is inherited by descendant (nested) elements. DONE!*/
 
     /* 👉 Task 3- Target the element with id headerTop.
-    Apply white color to the text, some padding using px or rem units, and a dark background color. */
+    Apply white color to the text, some padding using px or rem units, and a dark background color. DONE!*/
 
     /* 👉 Task 4- Target the divs that are directly nested underneath the id headerTop.
     Make them display as inline block, instead of block.
-    This will make them render on the same line. */
+    This will make them render on the same line. DONE!*/
 
     /* 👉 Task 5- Target the spans that are nested inside the id headerTop.
     Make them have some margin on the right.
-    This will prevent the spans from crashing against one another. */
+    This will prevent the spans from crashing against one another. DONE!*/
 
     /* 👉 Task 6- Target the first span nested inside the element with id headerTop.
-    Make it have a font weight of bold, and transform the text to uppercase. */
+    Make it have a font weight of bold, and transform the text to uppercase. DONE!*/
 
     /* 👉 Task 7- Target the id headerBottom.
-    Give it a bottom border of 1 pixel, solid gray, and a little bit of padding using px or rem units. */
+    Give it a bottom border of 1 pixel, solid gray, and a little bit of padding using px or rem units. DONE!*/
 
     /* 👉 Task 8- Target the divs that are nested directly inside the element with id headerBottom.
     Make them display as inline block, instead of block.
     This will cause them to render on the same line.
-    You can consolidate this rule with the one on step. 4 */
+    You can consolidate this rule with the one on step. 4 DONE!*/
 
     /* 👉 Task 9- Target the "Compose" button, although note it's a div instead an actual button.
     Give it color, bold text, background, padding, border radius, margin right, and a cursor of pointer. */
@@ -64,6 +64,8 @@
 
   </style>
   <title>Document</title>
+  <link rel="stylesheet" href="reset.css">
+  <link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
@@ -77,17 +79,17 @@
   <div>
     <header>
       <div id="headerTop">
-        <div>
-          <span>Super Mail</span>
-          <span>Jess</span>
+        <div class="inline">
+          <span class="span-fix" id="first-span">Super Mail</span>
+          <span class="span-fix">Jess</span>
         </div>
-        <div>
+        <div class="inline">
           <input type="text" placeholder="Search Mail" />
         </div>
       </div>
       <div id="headerBottom">
-        <div>Compose</div>
-        <div>
+        <div class="inline" id="compose-button">Compose</div>
+        <div class="inline">
           <button>All mail</button>
           <button>Unread</button>
           <button>Pinned</button>

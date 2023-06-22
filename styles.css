@@ -1,0 +1,40 @@
+
+body {
+    font-family: Arial;
+}
+
+#headerTop {
+    color: white;
+    padding: 0.5rem;
+    background-color: #176bad;
+}
+
+/* #headerTop > div { */
+.inline {
+    display: inline-block;
+}
+
+/* #headerTop span { */
+.span-fix {
+    margin-right: 0.5rem;
+}
+
+#first-span {
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+#headerBottom {
+    border-bottom: 1px solid gray;
+    padding: 0.5rem;
+}
+
+#compose-button {
+    color: white;
+    font-weight: bold;
+    background-color: #176bad;
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+    margin-right: 0.5rem;
+    cursor: pointer;
+}
