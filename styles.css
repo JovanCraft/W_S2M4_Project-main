@@ -9,9 +9,15 @@ body {
     background-color: #176bad;
 }
 
-/* #headerTop > div { */
-.inline {
-    display: inline-block;
+#headerTop{
+    display: flex;
+    align-items: baseline;
+}
+
+#headerBottom {
+    display: flex;
+    align-items: baseline;
+
 }
 
 /* #headerTop span { */
@@ -52,8 +58,8 @@ body {
     font-weight: bold;
 }
 
-.email > div {
-    display: inline-block;
+.email {
+    display: flex;
 }
 
 .email {
