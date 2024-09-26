@@ -10,3 +10,7 @@
 4. Return to VSCode and start working on your Challenges.
 5. When you want to check if your code is correct, save changes, go to Chrome and refresh the page.
 6. Find a screenshot of the end result of this challenge inside the `design` folder.
+
+
+
+
